@@ -1,0 +1,27 @@
+body{
+    background-color: #333;
+}
+div{
+    padding: 5px 60px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    justify-content: center;
+
+}
+div h1{
+    width: max-content;
+    margin: auto;
+    font-size: 49px;
+    font-family: serif;
+    color: gold;
+}
+div button{
+    cursor: pointer;
+    color: blue;
+    background-color: gray;
+    font-size: 50px;
+    box-shadow:  white 2px 2px 3px;
+}
